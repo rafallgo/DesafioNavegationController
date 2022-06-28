@@ -60,10 +60,12 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Dismiss"/>
+                                <connections>
+                                    <action selector="DimissButton:" destination="frZ-HL-MlM" eventType="touchUpInside" id="dVi-F2-kTt"/>
+                                </connections>
                             </button>
                             <connections>
                                 <action selector="Dismiss:" destination="frZ-HL-MlM" id="Dmf-19-J38"/>
-                                <segue destination="BYZ-38-t0r" kind="show" id="Q34-h5-ZdP"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
@@ -109,10 +111,6 @@
             <point key="canvasLocation" x="1875" y="125"/>
         </scene>
     </scenes>
-    <inferredMetricsTieBreakers>
-        <segue reference="Ofm-yB-PQI"/>
-        <segue reference="Q34-h5-ZdP"/>
-    </inferredMetricsTieBreakers>
     <resources>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>

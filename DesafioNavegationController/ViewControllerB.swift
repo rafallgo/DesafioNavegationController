@@ -15,7 +15,11 @@ class ViewControllerB: UIViewController {
         // Do any additional setup after loading the view.
     }
     
-
+    @IBAction func DimissButton(_ sender: Any) {
+        self.dismiss(animated: true, completion: nil)
+        
+    }
+    
     /*
     // MARK: - Navigation
 
