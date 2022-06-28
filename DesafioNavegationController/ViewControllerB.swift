@@ -16,7 +16,7 @@ class ViewControllerB: UIViewController {
     }
     
     @IBAction func DimissButton(_ sender: Any) {
-        self.dismiss(animated: true, completion: nil)
+        self.dismiss(animated: true, completion: nil) //Utiliza para voltar para tela principal direto
         
     }
     
