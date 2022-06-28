@@ -13,13 +13,15 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewControllerA" customModule="DesafioNavegationController" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="758"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="l9a-8F-YRl">
-                                <rect key="frame" x="99" y="424" width="216" height="48"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="l9a-8F-YRl">
+                                <rect key="frame" x="119.66666666666667" y="382" width="135.66666666666663" height="48"/>
                                 <color key="backgroundColor" red="0.99561697244644165" green="0.01029523741453886" blue="0.15368351340293884" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="48" id="Xid-6p-GBp"/>
+                                </constraints>
                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="View Controller B"/>
@@ -30,6 +32,10 @@
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="l9a-8F-YRl" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="NXF-1w-mKv"/>
+                            <constraint firstItem="l9a-8F-YRl" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="sCl-Jx-PaP"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="ViewControllerA" id="MgC-yU-SPR"/>
                 </viewController>
@@ -104,6 +110,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
+        <segue reference="Ofm-yB-PQI"/>
         <segue reference="Q34-h5-ZdP"/>
     </inferredMetricsTieBreakers>
     <resources>
